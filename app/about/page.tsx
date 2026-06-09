@@ -14,7 +14,7 @@ import AnimatedCounter from "../components/AnimatedCounter";
 const whatsappHref = "https://api.whatsapp.com/send?phone=919370943551&text=Hi";
 
 const currentYear = new Date().getFullYear();
-const yearsOfExp = currentYear - 2013;
+const yearsOfExp = Math.max(currentYear - 2013, 13);
 
 const strengths = [
   { value: "2013", label: "Founded in Pune" },

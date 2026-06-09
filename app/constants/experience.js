@@ -1,1 +1,1 @@
-export const yearsExperience = new Date().getFullYear() - 2013;
+export const yearsExperience = Math.max(new Date().getFullYear() - 2013, 13);
