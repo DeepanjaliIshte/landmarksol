@@ -49,13 +49,13 @@ export default function AboutPage() {
 
         <div className="modern-hero-container">
           {/* Left Content Column */}
-          <motion.div 
+          <motion.div
             className="modern-hero-content"
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            <motion.div 
+            <motion.div
               className="hero-badge"
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
@@ -78,8 +78,8 @@ export default function AboutPage() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.6, duration: 0.7 }}
             >
-              We bring software development, product distribution, implementation, 
-              and support together to help businesses manage their operations with 
+              We bring software development, product distribution, implementation,
+              and support together to help businesses manage their operations with
               greater scale and confidence.
             </motion.p>
 
@@ -98,7 +98,7 @@ export default function AboutPage() {
             </motion.div>
 
             {/* Inline Stats */}
-            <motion.div 
+            <motion.div
               className="hero-stats-row"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -124,7 +124,7 @@ export default function AboutPage() {
           </motion.div>
 
           {/* Right Visual Column */}
-          <motion.div 
+          <motion.div
             className="modern-hero-visual"
             initial={{ opacity: 0, scale: 0.9, x: 50 }}
             animate={{ opacity: 1, scale: 1, x: 0 }}
@@ -132,9 +132,9 @@ export default function AboutPage() {
           >
             <div className="visual-glass-card">
               <img src={storyImg.src} alt="Landmark Techedge Journey" className="hero-3d-illustration" />
-              
+
               {/* Decorative floating elements */}
-              <motion.div 
+              <motion.div
                 className="floating-badge badge-top-right"
                 animate={{ y: [0, -10, 0] }}
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
@@ -142,7 +142,7 @@ export default function AboutPage() {
                 <Target size={20} color="#3b82f6" />
                 <span>Innovation</span>
               </motion.div>
-              <motion.div 
+              <motion.div
                 className="floating-badge badge-bottom-left"
                 animate={{ y: [0, 10, 0] }}
                 transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
@@ -331,7 +331,7 @@ export default function AboutPage() {
 
       <ContactSection />
 
-      
+
 
       <a className="whatsapp-float" href={whatsappHref} aria-label="Chat with us on WhatsApp">
         <span className="tooltip">Chat with us! 👋</span>
