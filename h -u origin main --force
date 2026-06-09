@@ -1,0 +1,5 @@
+[33m736031d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Make experience counter dynamic
+[33m37d4317[m Remove export output from next.config.mjs to fix build
+[33m9d56263[m Fix CTA button styling, hero CSS stray lines, and add AnimatedCounter component
+[33m1017dc6[m fix: remove empty FadeInSection from bizpluserp to fix production build error
+[33meb6cd1b[m feat: Add Contact Us page, refactor global footer, update BizPlus ERP logo card, and improve Testimonials carousel
