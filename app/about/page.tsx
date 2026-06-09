@@ -13,12 +13,11 @@ import globalTechImg from "../img/global_tech.png";
 import AnimatedCounter from "../components/AnimatedCounter";
 const whatsappHref = "https://api.whatsapp.com/send?phone=919370943551&text=Hi";
 
-const currentYear = new Date().getFullYear();
-const yearsOfExp = Math.max(currentYear - 2013, 13);
+const yearsOfExp = 13;
 
 const strengths = [
   { value: "2013", label: "Founded in Pune" },
-  { value: yearsOfExp, label: "Years of delivery", isCounter: true },
+  { value: yearsOfExp, label: "Years Exp.", isCounter: true },
   { value: "360", label: "Software, support, and distribution" },
 ];
 
