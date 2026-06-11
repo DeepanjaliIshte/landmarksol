@@ -16,7 +16,6 @@ const whatsappHref = "https://api.whatsapp.com/send?phone=919370943551&text=Hi";
 const yearsOfExp = 13;
 
 const strengths = [
-  { value: "2013", label: "Founded in Pune" },
   { value: yearsOfExp, label: "Years Exp.", isCounter: true },
   { value: "360", label: "Software, support, and distribution" },
 ];
@@ -70,7 +69,7 @@ export default function AboutPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.7 }}
             >
-              Building Technology Solutions Since 2013
+              Landmark Techedge Pvt. Ltd. – Simplifying Business Through Technology
             </motion.h1>
 
             <motion.p
@@ -78,9 +77,7 @@ export default function AboutPage() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.6, duration: 0.7 }}
             >
-              We bring software development, product distribution, implementation,
-              and support together to help businesses manage their operations with
-              greater scale and confidence.
+              We provide secure, reliable, and cost-effective software solutions for healthcare centers, manufacturing companies, trading businesses, service providers, and growing organizations.
             </motion.p>
 
             <motion.div
@@ -184,18 +181,9 @@ export default function AboutPage() {
           transition={{ duration: 0.8 }}
         >
           <span className="hero-eyebrow">Our Story</span>
-          <h2>Building Technology Solutions Since 2013</h2>
+          <h2>Building Technology Solutions</h2>
           <p>
-            Landmark Techedge Pvt Ltd is leading Software Development and
-            Distribution company which is vastly diversified and scaled to cover
-            the almost entire gamut of IT services.
-          </p>
-          <p>
-            Established in 2013 and operates from Pune. Our Company is managed
-            by a group of professionals. We have grown to be a market leader in
-            our verticals because of our ability to deliver products in a timely
-            manner with quality service and technical support to our Clients,
-            Resellers, and Distributors.
+            Landmark Techedge Pvt. Ltd. is a software company established in 2013. We provide secure, reliable, and cost-effective software solutions for healthcare centers, manufacturing companies, trading businesses, service providers, and growing organizations.
           </p>
         </motion.div>
         <motion.div
@@ -223,11 +211,7 @@ export default function AboutPage() {
           <span className="hero-eyebrow">Our Vision</span>
           <h2>Simpler operations, stronger customer communication, greater scale.</h2>
           <p>
-            To deliver value to our clients, we focus exclusively on simplifying
-            business operations and customer communications as these are the
-            most critical aspects to success. This enables us to build and bring
-            deep expertise and resources to help our clients manage business
-            situations in greater scale.
+            Our vision is to become a trusted technology partner for businesses by delivering innovative, reliable, and easy-to-use software solutions that support digital transformation and long-term growth.
           </p>
         </motion.div>
         <motion.div
@@ -255,9 +239,7 @@ export default function AboutPage() {
           <span className="hero-eyebrow">Our Mission</span>
           <h2>Build a remarkable company that consistently exceeds expectations.</h2>
           <p>
-            Landmark's mission is aiming to build a remarkable entrepreneurial
-            company that constantly exceeds the expectation of our customer,
-            clients, channel partners, and share holders.
+            Our mission is to simplify business operations through smart software solutions, helping organizations reduce manual work, improve efficiency, manage data accurately, and make better decisions.
           </p>
         </motion.div>
         <motion.div
@@ -273,7 +255,80 @@ export default function AboutPage() {
         </motion.div>
       </section>
 
-      {/* Values Section */}
+      {/* Our Key Products Section */}
+<section className="creative-section">
+  <motion.div
+    className="creative-section-content"
+    initial={{ opacity: 0, x: -50 }}
+    whileInView={{ opacity: 1, x: 0 }}
+    viewport={{ once: true }}
+    transition={{ duration: 0.8 }}
+  >
+    <span className="hero-eyebrow">Our Key Products</span>
+    <h2>TRIO HIMS</h2>
+    <p>TRIO HIMS is a Healthcare Information Management Software designed for hospitals, clinics, diagnostic centers, and healthcare organizations. It helps manage patient registration, OPD, IPD, billing, pharmacy, laboratory, radiology, reports, and digital records from one platform.</p>
+    <h2>BizPlusCRM</h2>
+    <p>BizPlusCRM is a Customer Relationship Management software that helps businesses manage leads, enquiries, follow-ups, quotations, sales activities, customer communication, team tracking, and reports. It helps improve lead conversion and reduce missed follow-ups.</p>
+    <h2>BizPlusERP</h2>
+    <p>BizPlusERP is an ERP software solution for manufacturing and growing businesses. It helps manage sales, purchase, inventory, production, BOM, job work, dispatch, accounts, quality control, and business reports.</p>
+    <h2>SAP Solutions</h2>
+    <p>We also provide SAP Solutions to help businesses manage enterprise-level operations with better control, integration, automation, and data visibility.</p>
+  </motion.div>
+</section>
+
+{/* Why Choose Us Section */}
+<section className="creative-section">
+  <motion.div
+    className="creative-section-content"
+    initial={{ opacity: 0, x: -50 }}
+    whileInView={{ opacity: 1, x: 0 }}
+    viewport={{ once: true }}
+    transition={{ duration: 0.8 }}
+  >
+    <span className="hero-eyebrow">Why Choose Us?</span>
+    <ul className="list-disc pl-5 space-y-2">
+      <li>✅ Established since 2013</li>
+      <li>✅ Experienced software team</li>
+      <li>✅ Healthcare, CRM, ERP, and SAP solutions</li>
+      <li>✅ Secure and reliable systems</li>
+      <li>✅ Easy-to-use software</li>
+      <li>✅ Cost-effective implementation</li>
+      <li>✅ Customization support</li>
+      <li>✅ Long-term customer support</li>
+    </ul>
+  </motion.div>
+</section>
+
+{/* Channel Partner Opportunity Section */}
+<section className="creative-section">
+  <motion.div
+    className="creative-section-content"
+    initial={{ opacity: 0, x: -50 }}
+    whileInView={{ opacity: 1, x: 0 }}
+    viewport={{ once: true }}
+    transition={{ duration: 0.8 }}
+  >
+    <span className="hero-eyebrow">Channel Partner Opportunity</span>
+    <p>Landmark Techedge Pvt. Ltd. also provides Channel Partner opportunities for IT consultants, software resellers, healthcare consultants, ERP/CRM consultants, digital agencies, freelancers, and business associates.</p>
+    <p>As a channel partner, you can promote our products like TRIO HIMS, BizPlusCRM, BizPlusERP, and SAP Solutions in your region and grow with us.</p>
+  </motion.div>
+</section>
+
+{/* Our Commitment Section */}
+<section className="creative-section">
+  <motion.div
+    className="creative-section-content"
+    initial={{ opacity: 0, x: -50 }}
+    whileInView={{ opacity: 1, x: 0 }}
+    viewport={{ once: true }}
+    transition={{ duration: 0.8 }}
+  >
+    <span className="hero-eyebrow">Our Commitment</span>
+    <p>We are committed to helping businesses move from manual work to digital systems. Our goal is to simplify operations, improve productivity, and support organizations in their digital transformation journey.</p>
+  </motion.div>
+</section>
+
+{/* Values Section */}
       <section style={{ maxWidth: "1200px", margin: "0 auto", padding: "1.5rem 2rem" }}>
         <motion.div
           initial={{ opacity: 0, y: 30 }}

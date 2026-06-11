@@ -81,7 +81,7 @@ const VmBackupPage = () => {
       {/* Tabs Section */}
       <div style={{ backgroundColor: "#f3f3f3", padding: "60px 20px", width: "100%" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto", backgroundColor: "#fff", borderRadius: "10px", boxShadow: "0 4px 8px rgba(0,0,0,0.1)", padding: "20px" }}>
-          
+
           <ul style={{ display: "flex", justifyContent: "space-around", borderBottom: "2px solid #007BFF", paddingBottom: "10px", listStyle: "none", margin: 0, padding: 0, flexWrap: "wrap" }}>
             {[
               { id: "tab1", label: "Ransomware Protection leveraging Immutable Cloud Storage" },
@@ -267,7 +267,7 @@ const VmBackupPage = () => {
       {/* FAQs Panel */}
       <div style={{ padding: "40px 20px", backgroundColor: "#f9f9f9" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto", backgroundColor: "#fff", borderRadius: "8px", border: "1px solid #e0e0e0", overflow: "hidden" }}>
-          <div 
+          <div
             onClick={() => setFaqExpanded(!faqExpanded)}
             style={{ backgroundColor: "#006f8e", padding: "15px 20px", cursor: "pointer", display: "flex", justifyContent: "space-between", alignItems: "center" }}
           >

@@ -47,7 +47,7 @@ const products = [
     body:
       "Altaro VM Backup is a reliable backup and replication solution for VMware and Hyper-V environments. Trusted by thousands of businesses worldwide, it helps organizations secure their virtual environments with faster backup, disaster recovery, and continuous data protection.",
     points: ["VM Backup", "Replication", "Disaster Recovery", "Continuous Data Protection", "24/7 Support"],
-    action: "Start Free Trial",
+    action: "Book Free Demo",
     href: "#contact",
   },
   {
@@ -57,7 +57,7 @@ const products = [
     body:
       "TRIO HIMS is an advanced hospital and healthcare management solution developed to simplify hospital operations, patient management, billing, records management, and healthcare workflows through a secure digital platform.",
     points: ["Hospital Management", "Patient Records", "Billing", "Administration", "Digital Healthcare Operations"],
-    action: "Start Free Trial",
+    action: "Book Free Demo",
     href: "#contact",
   },
   {
@@ -67,7 +67,7 @@ const products = [
     body:
       "Manage your entire manufacturing and business operations from one centralized ERP platform. BizPlus ERP helps businesses streamline CRM, quotation, production planning, BOM, inventory, warehouse, dispatch, accounting, and after-sales processes with improved efficiency and visibility.",
     points: ["CRM", "Production", "BOM", "Job Cards", "Inventory", "Dispatch", "AMC", "Accounting"],
-    action: "Request ERP Demo",
+    action: "Book Free Demo",
     href: demoHref,
   },
 ];
@@ -77,7 +77,7 @@ const whyChooseUs = [
     title: "Industry Experience",
     icon: "icon-clock",
     text:
-        `With more than ${yearsExperience} years of experience in the software industry, we understand the operational challenges businesses face and deliver practical technology solutions that improve efficiency and business growth.`
+      `With more than ${yearsExperience} years of experience in the software industry, we understand the operational challenges businesses face and deliver practical technology solutions that improve efficiency and business growth.`
   },
   {
     title: "Complete Business Automation",
@@ -268,7 +268,7 @@ export default function Page() {
 
 
 
-      <section id="products" className="products">
+      <section id="products" className="products py-12">
         <div className="section-heading">
           <span className="eyebrow">OUR PRODUCTS</span>
           <h2>Smart Software Solutions for Modern Businesses</h2>
@@ -305,7 +305,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="why-choose-us">
+      <section className="why-choose-us py-12">
         <div className="section-heading">
           <span className="eyebrow">WHY CHOOSE US</span>
           <h2>Delivering Reliable Software Solutions Since 2013</h2>
@@ -335,9 +335,8 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="homepage-cta">
+      <section className="homepage-cta py-12">
         <div className="homepage-cta-content">
-
           <h2>Ready to Transform Your Business Operations?</h2>
           <p>
             Streamline your workflow with smart ERP, CRM, and business automation solutions from Landmark Techedge Pvt. Ltd.
@@ -353,7 +352,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section id="industries" className="services">
+      <section id="industries" className="services py-12">
         <div className="section-heading">
           <span className="eyebrow">INDUSTRIES WE SERVE</span>
           <h2>Software Solutions Designed for Multiple Industries</h2>
@@ -405,7 +404,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="testimonials">
+      <section className="testimonials py-12">
         <div className="section-heading">
           <span className="eyebrow">CLIENT TESTIMONIALS</span>
           <h2>Trusted by Businesses Across Multiple Industries</h2>
@@ -452,7 +451,7 @@ export default function Page() {
       </section>
 
       <ContactSection />
-      
+
 
       <a className="whatsapp-float" href={whatsappHref} aria-label="Chat with us on WhatsApp">
         <span className="tooltip">Chat with us! 👋</span>

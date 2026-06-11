@@ -164,7 +164,20 @@
   left: -30px;
 }
 
+/* Eyebrow text style for section headings */
+.hero-eyebrow {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
 /* Responsive adjustments */
+
+/* List items color for white visibility */
+.creative-section ul li {
+  color: #fff;
+}
+
 @media (max-width: 992px) {
   .modern-hero-container {
     grid-template-columns: 1fr;
@@ -365,7 +378,7 @@
 
 .creative-section p {
   font-size: 1.15rem;
-  color: #cbd5e1;
+  color: #fff;
   line-height: 1.8;
   margin-bottom: 1.5rem;
   font-weight: 300;
