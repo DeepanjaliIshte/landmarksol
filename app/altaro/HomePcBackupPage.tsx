@@ -15,7 +15,7 @@ const splitSections = [
     text: "Your data is protected every time you make a change — without slowing down your PC.",
   },
   {
-    title: "BackInTime Technology",
+    title: "Back In Time Technology",
     text: "Go back in time and choose different versions of your files from different points in time.",
   },
   {
@@ -61,7 +61,7 @@ const reviews = [
     quote: "It's simple to set up and use, reliable, works quietly in the background without you noticing, and makes it easy to restore files or folders whenever necessary.",
   },
   {
-    source: "TechRepublic",
+    source: "Tech Republic",
     quote: "A great step forward in helping users back up their data as often as possible.",
   },
   {
@@ -69,11 +69,11 @@ const reviews = [
     quote: "Oops!Backup is a well designed and trustworthy backup tool that gives Windows an Apple-like Time Machine. It is both easy to use and flexible.",
   },
   {
-    source: "PCWorld",
+    source: "PC World",
     quote: "Oops!Backup is a delightfully easy way to back up data.",
   },
   {
-    source: "DownloadSquad",
+    source: "Download Squad",
     quote: "Restore with one click — your fingers never having to leave your hand. Amazing.",
   },
 ];
@@ -87,7 +87,7 @@ export default function HomePcBackupPage() {
       {/* Hero Section */}
       <section className="hero hero-blue" style={{ background: "linear-gradient(135deg, rgba(239,246,255,1) 0%, rgba(219,234,254,0.5) 100%)" }}>
         <div className="hero-grid">
-          <motion.div 
+          <motion.div
             className="hero-copy"
             initial={shouldReduceMotion ? false : { opacity: 0, x: -30 }}
             animate={shouldReduceMotion ? undefined : { opacity: 1, x: 0 }}
@@ -105,13 +105,13 @@ export default function HomePcBackupPage() {
             </div>
           </motion.div>
 
-          <motion.div 
+          <motion.div
             className="hero-visual"
             initial={shouldReduceMotion ? false : { opacity: 0, scale: 0.95 }}
             animate={shouldReduceMotion ? undefined : { opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
           >
-            <motion.div 
+            <motion.div
               className="visual-card"
               animate={shouldReduceMotion ? undefined : { y: [0, -15, 0] }}
               transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
@@ -129,7 +129,7 @@ export default function HomePcBackupPage() {
 
       {/* Intro */}
       <FadeInSection>
-        <section style={{ padding: '80px 24px', background: '#fff' }}>
+        <section style={{ padding: '48px 24px', background: '#fff' }}>
           <div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center' }}>
             <h2 style={{ fontSize: '28px', color: '#0f172a', marginBottom: '24px', lineHeight: 1.4 }}>
               Backup for Windows 8, 7, Vista &amp; XP
@@ -143,13 +143,13 @@ export default function HomePcBackupPage() {
 
       {/* Core Advantages */}
       <FadeInSection>
-        <section style={{ padding: '80px 24px', background: 'linear-gradient(135deg, rgba(207,232,255,0.15), rgba(255,179,184,0.15))' }}>
+        <section style={{ padding: '48px 24px', background: 'linear-gradient(135deg, rgba(207,232,255,0.15), rgba(255,179,184,0.15))' }}>
           <div style={{ maxWidth: '1180px', margin: '0 auto' }}>
             <div className="section-heading" style={{ textAlign: 'center', margin: '0 auto 48px' }}>
               <span className="eyebrow" style={{ justifyContent: 'center' }}>Key Advantages</span>
               <h2>Why choose Oops!Backup</h2>
             </div>
-            
+
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '32px' }}>
               {splitSections.map((item, i) => (
                 <div key={i} className="impact-card" style={{ borderRadius: '24px', padding: '40px', background: '#fff', textAlign: 'center' }}>
@@ -167,13 +167,13 @@ export default function HomePcBackupPage() {
 
       {/* Detailed Features Grid */}
       <FadeInSection>
-        <section style={{ padding: '80px 24px', background: '#fff' }}>
+        <section style={{ padding: '48px 24px', background: '#fff' }}>
           <div style={{ maxWidth: '1180px', margin: '0 auto' }}>
             <div className="section-heading" style={{ textAlign: 'center', margin: '0 auto 48px' }}>
               <span className="eyebrow" style={{ justifyContent: 'center' }}>Features</span>
               <h2>Everything you need for PC backup</h2>
             </div>
-            
+
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '24px' }}>
               {productFeatures.map((item, i) => (
                 <div key={i} className="impact-card" style={{ borderRadius: '20px', padding: '32px', background: '#f8fafc', border: '1px solid #e2e8f0', boxShadow: 'none' }}>
@@ -191,13 +191,13 @@ export default function HomePcBackupPage() {
 
       {/* Reviews Masonry */}
       <FadeInSection>
-        <section style={{ padding: '80px 24px', background: 'linear-gradient(135deg, rgba(15,23,42,0.02), rgba(15,23,42,0.05))' }}>
+        <section style={{ padding: '48px 24px', background: 'linear-gradient(135deg, rgba(15,23,42,0.02), rgba(15,23,42,0.05))' }}>
           <div style={{ maxWidth: '1180px', margin: '0 auto' }}>
             <div className="section-heading" style={{ textAlign: 'center', margin: '0 auto 48px' }}>
               <span className="eyebrow" style={{ justifyContent: 'center' }}>Testimonials</span>
               <h2>What the experts are saying</h2>
             </div>
-            
+
             <div style={{ columnCount: 3, columnGap: '24px', width: '100%' }}>
               {reviews.map((item, i) => (
                 <div key={i} className="impact-card" style={{ breakInside: 'avoid', marginBottom: '24px', borderRadius: '20px', padding: '32px', background: '#fff', display: 'inline-block', width: '100%', boxSizing: 'border-box' }}>
@@ -226,7 +226,7 @@ export default function HomePcBackupPage() {
         </section>
       </FadeInSection>
 
-      
+
 
       <a className="whatsapp-float" href={whatsappHref} aria-label="Chat with us on WhatsApp">
         <span className="tooltip">Chat with us! 👋</span>

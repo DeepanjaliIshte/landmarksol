@@ -12,10 +12,10 @@ const whatsappHref = "https://api.whatsapp.com/send?phone=919370943551&text=Hi";
 const demoHref = "https://calendly.com/bizpluscrm/freedemo";
 
 const trustPoints = [
-  { title: `${yearsExperience}+ Years`, text: "Industry Experience", icon: "icon-star" },
-  { title: "ERP & SaaS", text: "Software Company", icon: "icon-building" },
-  { title: "Serving Businesses", text: "Across India", icon: "icon-users" },
-  { title: "Dedicated Support &", text: "Implementation Team", icon: "icon-headset" },
+  { title: `${yearsExperience}+ Years`, text: " Industry Experience", icon: "icon-star" },
+  { title: "ERP & SaaS", text: " Software Company", icon: "icon-building" },
+  { title: "Serving Businesses ", text: "Across India", icon: "icon-users" },
+  { title: "Dedicated Support & ", text: "Implementation Team", icon: "icon-headset" },
 ];
 
 const heroIndustries = [
@@ -305,7 +305,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="why-choose-us py-12">
+      <section className="why-choose-us">
         <div className="section-heading">
           <span className="eyebrow">WHY CHOOSE US</span>
           <h2>Delivering Reliable Software Solutions Since 2013</h2>
@@ -335,7 +335,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="homepage-cta py-12">
+      <section className="homepage-cta">
         <div className="homepage-cta-content">
           <h2>Ready to Transform Your Business Operations?</h2>
           <p>

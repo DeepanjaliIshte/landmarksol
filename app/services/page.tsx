@@ -163,7 +163,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <section className="technologies-section" style={{ padding: '80px 24px', background: '#fff' }}>
+      <section className="technologies-section" style={{ padding: '48px 24px', background: '#fff' }}>
         <div style={{ maxWidth: '1180px', margin: '0 auto', textAlign: 'center' }}>
           <span className="eyebrow">Technologies We Use</span>
           <h2 style={{ marginBottom: '48px', fontSize: '32px' }}>Modern Tech Stack</h2>
@@ -192,7 +192,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <section className="clients-section" style={{ padding: '80px 24px', background: '#f8fafc', borderTop: '1px solid #e2e8f0' }}>
+      <section className="clients-section" style={{ padding: '48px 24px', background: '#f8fafc', borderTop: '1px solid #e2e8f0' }}>
         <div style={{ maxWidth: '1180px', margin: '0 auto', textAlign: 'center' }}>
           <span className="eyebrow">Our Clients</span>
           <h2 style={{ marginBottom: '48px', fontSize: '32px' }}>Trusted By Industry Leaders</h2>

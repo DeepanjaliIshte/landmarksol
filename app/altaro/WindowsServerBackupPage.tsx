@@ -163,7 +163,7 @@ export default function WindowsServerBackupPage() {
 
       {/* Intro */}
       <FadeInSection>
-        <section style={{ padding: '80px 24px', background: '#fff' }}>
+        <section style={{ padding: '48px 24px', background: '#fff' }}>
           <div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center' }}>
             <h2 style={{ fontSize: '28px', color: '#0f172a', marginBottom: '24px', lineHeight: 1.4 }}>
               Protect the physical machines on your network.
@@ -179,7 +179,7 @@ export default function WindowsServerBackupPage() {
 
       {/* Top Features */}
       <FadeInSection>
-        <section style={{ padding: '80px 24px', background: 'linear-gradient(135deg, rgba(207,232,255,0.15), rgba(255,179,184,0.15))' }}>
+        <section style={{ padding: '48px 24px', background: 'linear-gradient(135deg, rgba(207,232,255,0.15), rgba(255,179,184,0.15))' }}>
           <div style={{ maxWidth: '1180px', margin: '0 auto' }}>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '24px' }}>
               {topFeatures.map((item, i) => (
@@ -198,7 +198,7 @@ export default function WindowsServerBackupPage() {
 
       {/* Main Features Split Grid */}
       <FadeInSection>
-        <section style={{ padding: '80px 24px', background: '#fff' }}>
+        <section style={{ padding: '48px 24px', background: '#fff' }}>
           <div style={{ maxWidth: '1180px', margin: '0 auto' }}>
             <div className="section-heading" style={{ textAlign: 'center', margin: '0 auto 48px' }}>
               <span className="eyebrow" style={{ justifyContent: 'center' }}>Features</span>
@@ -248,7 +248,7 @@ export default function WindowsServerBackupPage() {
 
       {/* OS Support */}
       <FadeInSection>
-        <section style={{ padding: '80px 24px', background: 'linear-gradient(135deg, rgba(15,23,42,0.02), rgba(15,23,42,0.05))' }}>
+        <section style={{ padding: '48px 24px', background: 'linear-gradient(135deg, rgba(15,23,42,0.02), rgba(15,23,42,0.05))' }}>
           <div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center' }}>
             <h2 style={{ fontSize: '32px', color: '#0f172a', marginBottom: '16px' }}>What operating systems does this freeware back up?</h2>
             <p style={{ fontSize: '18px', color: '#64748b', marginBottom: '32px' }}>Supported Windows Server OS Versions:</p>

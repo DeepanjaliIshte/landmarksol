@@ -105,7 +105,7 @@ export default function BizPlusErpPage() {
 
       {/* Hero Section */}
       <section className="hero hero-blue" style={{ background: "linear-gradient(135deg, rgba(239,246,255,1) 0%, rgba(219,234,254,0.5) 100%)", paddingBottom: '0' }}>
-        <div className="hero-grid" style={{ marginBottom: '64px' }}>
+        <div className="hero-grid">
           <motion.div 
             className="hero-copy"
             initial={shouldReduceMotion ? false : { opacity: 0, x: -30 }}
@@ -159,7 +159,7 @@ export default function BizPlusErpPage() {
 
       {/* Mission & Vision Section */}
       <FadeInSection>
-        <section style={{ padding: '80px 24px', position: 'relative' }}>
+        <section style={{ padding: '48px 24px', position: 'relative' }}>
           <div style={{ maxWidth: '1100px', margin: '0 auto', textAlign: 'center' }}>
             <div className="section-heading" style={{ margin: '0 auto 48px', maxWidth: '800px' }}>
               <span className="eyebrow" style={{ justifyContent: 'center' }}>About BizPlus ERP</span>
@@ -204,7 +204,7 @@ export default function BizPlusErpPage() {
 
       {/* Start Automating / Tags Section */}
       <FadeInSection>
-        <section style={{ padding: '80px 24px', background: 'linear-gradient(135deg, rgba(207,232,255,0.15), rgba(255,179,184,0.15))' }}>
+        <section style={{ padding: '48px 24px', background: 'linear-gradient(135deg, rgba(207,232,255,0.15), rgba(255,179,184,0.15))' }}>
           <div style={{ maxWidth: '1100px', margin: '0 auto', textAlign: 'center' }}>
             <h2 style={{ fontSize: 'clamp(28px, 4vw, 36px)', color: '#0f172a', marginBottom: '24px' }}>
               Start Automating and Scaling Your Business Operations
@@ -229,7 +229,7 @@ export default function BizPlusErpPage() {
 
       {/* Features Grid */}
       <FadeInSection>
-        <section style={{ padding: '80px 24px', background: '#fff' }}>
+        <section style={{ padding: '48px 24px', background: '#fff' }}>
           <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
             <div className="section-heading" style={{ textAlign: 'center', margin: '0 auto 48px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
               <span className="eyebrow" style={{ justifyContent: 'center' }}>Features</span>
@@ -265,7 +265,7 @@ export default function BizPlusErpPage() {
 
       {/* Benefits Section */}
       <FadeInSection>
-        <section style={{ padding: '80px 24px', background: 'linear-gradient(to bottom, #ffffff, #f8fafc)' }}>
+        <section style={{ padding: '48px 24px', background: 'linear-gradient(to bottom, #ffffff, #f8fafc)' }}>
           <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
             <div className="section-heading" style={{ textAlign: 'center', margin: '0 auto 48px' }}>
               <span className="eyebrow" style={{ justifyContent: 'center' }}>Transformation</span>
@@ -300,7 +300,7 @@ export default function BizPlusErpPage() {
 
       {/* AI Section */}
       <FadeInSection>
-        <section style={{ padding: '80px 24px' }}>
+        <section style={{ padding: '48px 24px' }}>
           <div className="perf-split" style={{ maxWidth: '1200px', margin: '0 auto', borderRadius: '32px', padding: '60px', background: 'linear-gradient(135deg, #1e293b, #0f172a)', color: '#fff', boxShadow: '0 24px 50px rgba(15,23,42,0.2)' }}>
             <div className="perf-content">
               <span className="eyebrow" style={{ color: '#38bdf8', border: '1px solid rgba(56,189,248,0.3)', background: 'rgba(56,189,248,0.1)' }}>AI POWERED ANALYTICS</span>
@@ -343,7 +343,7 @@ export default function BizPlusErpPage() {
 
       {/* Contact Section */}
       <FadeInSection>
-        <section id="contact" className="contact" style={{ padding: '80px 24px', backgroundColor: '#fafafa', borderTop: '1px solid #f1f5f9' }}>
+        <section id="contact" className="contact" style={{ padding: '48px 24px', backgroundColor: '#fafafa', borderTop: '1px solid #f1f5f9' }}>
           <div style={{ maxWidth: '1100px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '48px' }}>
             <div>
               <div className="section-heading" style={{ marginBottom: '32px' }}>

@@ -277,16 +277,16 @@ export default function AboutPage() {
 </section>
 
 {/* Why Choose Us Section */}
-<section className="creative-section">
+<section className="creative-section why-choose-us">
   <motion.div
-    className="creative-section-content"
+    className="creative-section-content why-choose-us-content"
     initial={{ opacity: 0, x: -50 }}
     whileInView={{ opacity: 1, x: 0 }}
     viewport={{ once: true }}
     transition={{ duration: 0.8 }}
   >
-    <span className="hero-eyebrow">Why Choose Us?</span>
-    <ul className="list-disc pl-5 space-y-2">
+    <span className="hero-eyebrow why-choose-us-heading">Why Choose Us?</span>
+    <ul className="list-disc pl-5 space-y-2 why-choose-us-list">
       <li>✅ Established since 2013</li>
       <li>✅ Experienced software team</li>
       <li>✅ Healthcare, CRM, ERP, and SAP solutions</li>

@@ -132,7 +132,7 @@ export default function IvrPage() {
 
       {/* Why Choose IVR? (Benefits) */}
       <FadeInSection>
-        <section className="why-choose-us" style={{ paddingTop: '80px' }}>
+        <section className="why-choose-us" style={{ paddingTop: '32px' }}>
           <div className="section-heading" style={{ maxWidth: 'none' }}>
             <span className="eyebrow">Benefits</span>
             <h2>Why Does Your Business Need an IVR System?</h2>

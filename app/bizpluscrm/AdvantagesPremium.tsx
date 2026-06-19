@@ -21,7 +21,7 @@ const cardVariants = {
 
 export default function AdvantagesPremium() {
   return (
-    <section className="about" aria-labelledby="advantages-heading" style={{ paddingTop: '80px', paddingBottom: '80px' }}>
+    <section className="about" aria-labelledby="advantages-heading" style={{ paddingTop: '32px', paddingBottom: '32px' }}>
       <div style={{ width: 'min(var(--content), 100%)', margin: '0 auto' }}>
         <header className="section-heading"><span className="eyebrow">Highlights</span><h2 id="advantages-heading">Advantages of BizPlusCRM</h2></header>
 

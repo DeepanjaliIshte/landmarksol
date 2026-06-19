@@ -101,7 +101,7 @@ export default function FileServerBackupPage() {
 
       {/* Feature Split 1 */}
       <FadeInSection>
-        <section style={{ padding: '80px 24px', background: '#fff' }}>
+        <section style={{ padding: '48px 24px', background: '#fff' }}>
           <div style={{ maxWidth: '1180px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '48px', alignItems: 'center' }}>
             <div className="impact-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '0', borderRadius: '16px', overflow: 'hidden', boxShadow: '0 12px 40px rgba(0,0,0,0.08)' }}>
               <img src={continuousProtectionImg.src} alt="Continuous Data Protection" style={{ width: '100%', height: 'auto', padding: '24px' }} />
@@ -118,7 +118,7 @@ export default function FileServerBackupPage() {
 
       {/* Feature Split 2 */}
       <FadeInSection>
-        <section style={{ padding: '80px 24px', background: 'linear-gradient(135deg, rgba(207,232,255,0.15), rgba(255,179,184,0.15))' }}>
+        <section style={{ padding: '48px 24px', background: 'linear-gradient(135deg, rgba(207,232,255,0.15), rgba(255,179,184,0.15))' }}>
           <div style={{ maxWidth: '1180px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '48px', alignItems: 'center' }}>
             <div>
               <h2 style={{ fontSize: '36px', color: '#0f172a', margin: '16px 0 24px', lineHeight: 1.2 }}>Backs Up Open Files</h2>
@@ -140,7 +140,7 @@ export default function FileServerBackupPage() {
 
       {/* Feature List */}
       <FadeInSection>
-        <section style={{ padding: '80px 24px', background: '#fff' }}>
+        <section style={{ padding: '48px 24px', background: '#fff' }}>
           <div style={{ maxWidth: '1180px', margin: '0 auto' }}>
             <div className="section-heading" style={{ textAlign: 'center', margin: '0 auto 48px' }}>
               <h2>More Features</h2>

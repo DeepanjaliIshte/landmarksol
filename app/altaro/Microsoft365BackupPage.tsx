@@ -140,7 +140,7 @@ export default function Microsoft365BackupPage() {
 
       {/* Intro */}
       <FadeInSection>
-        <section style={{ padding: '80px 24px', background: '#fff' }}>
+        <section style={{ padding: '48px 24px', background: '#fff' }}>
           <div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center' }}>
             <h2 style={{ fontSize: '28px', color: '#0f172a', marginBottom: '24px', lineHeight: 1.4 }}>
               365 Total Backup is the #1 Microsoft 365 backup and recovery solution for admins.
@@ -154,7 +154,7 @@ export default function Microsoft365BackupPage() {
 
       {/* Highlights Grid */}
       <FadeInSection>
-        <section style={{ padding: '80px 24px', background: 'linear-gradient(135deg, rgba(207,232,255,0.15), rgba(255,179,184,0.15))' }}>
+        <section style={{ padding: '48px 24px', background: 'linear-gradient(135deg, rgba(207,232,255,0.15), rgba(255,179,184,0.15))' }}>
           <div style={{ maxWidth: '1180px', margin: '0 auto' }}>
             <div className="section-heading" style={{ textAlign: 'center', margin: '0 auto 48px' }}>
               <span className="eyebrow" style={{ justifyContent: 'center' }}>Why 365 Total Backup</span>
@@ -177,7 +177,7 @@ export default function Microsoft365BackupPage() {
 
       {/* Features Overview */}
       <FadeInSection>
-        <section style={{ padding: '80px 24px', background: '#fff' }}>
+        <section style={{ padding: '48px 24px', background: '#fff' }}>
           <div style={{ maxWidth: '1180px', margin: '0 auto' }}>
             <div className="section-heading" style={{ textAlign: 'center', margin: '0 auto 48px' }}>
               <span className="eyebrow" style={{ justifyContent: 'center' }}>Capabilities</span>
@@ -206,7 +206,7 @@ export default function Microsoft365BackupPage() {
 
       {/* Setup Steps */}
       <FadeInSection>
-        <section id="setup" style={{ padding: '80px 24px', background: 'linear-gradient(135deg, rgba(16,185,129,0.05), rgba(59,130,246,0.05))' }}>
+        <section id="setup" style={{ padding: '48px 24px', background: 'linear-gradient(135deg, rgba(16,185,129,0.05), rgba(59,130,246,0.05))' }}>
           <div style={{ maxWidth: '1180px', margin: '0 auto', textAlign: 'center' }}>
             <div className="section-heading" style={{ margin: '0 auto 48px' }}>
               <span className="eyebrow" style={{ justifyContent: 'center' }}>Onboarding</span>

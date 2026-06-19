@@ -82,7 +82,7 @@ export default function ResellerProgramPage() {
 
       {/* Benefits Grid */}
       <FadeInSection>
-        <section style={{ padding: '80px 24px', background: 'linear-gradient(135deg, rgba(207,232,255,0.15), rgba(255,179,184,0.15))' }}>
+        <section style={{ padding: '48px 24px', background: 'linear-gradient(135deg, rgba(207,232,255,0.15), rgba(255,179,184,0.15))' }}>
           <div style={{ maxWidth: '1180px', margin: '0 auto' }}>
             <div className="section-heading" style={{ textAlign: 'center', margin: '0 auto 64px' }}>
               <span className="eyebrow" style={{ justifyContent: 'center' }}>Why Partner</span>

@@ -106,7 +106,7 @@ export default function TrioHimsPage() {
 
       {/* Why Choose Trio HIMS */}
       <FadeInSection>
-        <section style={{ padding: '80px 24px', background: '#fff' }}>
+        <section style={{ padding: '48px 24px', background: '#fff' }}>
           <div style={{ maxWidth: '1180px', margin: '0 auto' }}>
             <div className="section-heading" style={{ textAlign: 'center', margin: '0 auto 48px' }}>
               <span className="eyebrow" style={{ justifyContent: 'center' }}>Why Us</span>
@@ -130,7 +130,7 @@ export default function TrioHimsPage() {
 
       {/* Modules Bento Grid */}
       <FadeInSection>
-        <section style={{ padding: '80px 24px', background: 'linear-gradient(135deg, rgba(207,232,255,0.15), rgba(255,179,184,0.15))' }}>
+        <section style={{ padding: '48px 24px', background: 'linear-gradient(135deg, rgba(207,232,255,0.15), rgba(255,179,184,0.15))' }}>
           <div style={{ maxWidth: '1180px', margin: '0 auto' }}>
             <div className="section-heading" style={{ textAlign: 'center', margin: '0 auto 48px' }}>
               <span className="eyebrow" style={{ justifyContent: 'center' }}>HIMS Modules</span>
@@ -156,7 +156,7 @@ export default function TrioHimsPage() {
 
       {/* Doctors & Testimonials Masonry */}
       <FadeInSection>
-        <section style={{ padding: '80px 24px', background: '#fff' }}>
+        <section style={{ padding: '48px 24px', background: '#fff' }}>
           <div style={{ maxWidth: '1180px', margin: '0 auto' }}>
             <div className="section-heading" style={{ textAlign: 'center', margin: '0 auto 48px' }}>
               <span className="eyebrow" style={{ justifyContent: 'center' }}>Testimonials</span>

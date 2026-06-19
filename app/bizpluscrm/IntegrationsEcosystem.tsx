@@ -85,7 +85,7 @@ export default function IntegrationsEcosystem() {
   }, []);
 
   return (
-    <section ref={wrapRef} className="py-20 px-6 md:px-12 lg:px-20 relative overflow-hidden bg-gradient-to-b from-white via-slate-50 to-white">
+    <section ref={wrapRef} className="py-12 md:py-16 px-6 md:px-12 lg:px-20 relative overflow-hidden bg-gradient-to-b from-white via-slate-50 to-white">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-8">
           <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900">A Special FREE Integration For You Forever!</h2>

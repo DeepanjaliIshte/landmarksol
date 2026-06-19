@@ -11,9 +11,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 8rem 2rem 4rem;
+  padding: 3rem 2rem 4rem;
   z-index: 1;
-  min-height: 90vh;
+  min-height: auto;
 }
 
 .modern-hero-bg {
@@ -296,9 +296,9 @@
 }
 
 .creative-section {
-  padding: 5rem 4rem;
+  padding: 3rem 4rem;
   max-width: 1200px;
-  margin: 4rem auto;
+  margin: 3rem auto;
   display: flex;
   align-items: center;
   gap: 5rem;
@@ -338,6 +338,58 @@
   flex: 1.1;
   position: relative;
   z-index: 10;
+}
+
+/* Why Choose Us Card Styles */
+.why-choose-us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.why-choose-us-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.why-choose-us-heading {
+  font-size: 2rem; /* reduced from default eyebrow size */
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.why-choose-us-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.why-choose-us-list li {
+  font-size: 0.9rem; /* reduced list item size */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .why-choose-us {
+    padding: 2rem 1rem;
+  }
+  .why-choose-us-heading {
+    font-size: 1.5rem;
+  }
+  .why-choose-us-list li {
+    font-size: 0.8rem;
+  }
 }
 
 .creative-section-image {

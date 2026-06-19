@@ -128,7 +128,7 @@ export default function BizplusPage() {
 
       {/* Integrations Section */}
       <FadeInSection>
-        <section className="connectivity-section" aria-label="Connectivity Integrations" style={{ paddingTop: '80px', paddingBottom: '80px', backgroundColor: '#f8fafc' }}>
+        <section className="connectivity-section" aria-label="Connectivity Integrations" style={{ paddingTop: '32px', paddingBottom: '32px', backgroundColor: '#f8fafc' }}>
 
           <div style={{ width: 'min(var(--content), calc(100% - 48px))', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: '40px' }}>
 
@@ -171,7 +171,7 @@ export default function BizplusPage() {
 
       {/* About text section */}
       <FadeInSection>
-        <section className="company-intro" style={{ paddingTop: '60px', paddingBottom: '60px', backgroundColor: '#fafafa', borderTop: '1px solid rgba(0,0,0,0.05)', borderBottom: '1px solid rgba(0,0,0,0.05)' }}>
+        <section className="company-intro" style={{ paddingTop: '24px', paddingBottom: '24px', backgroundColor: '#fafafa', borderTop: '1px solid rgba(0,0,0,0.05)', borderBottom: '1px solid rgba(0,0,0,0.05)' }}>
           <div style={{ maxWidth: '1000px', margin: '0 auto', padding: '0 24px' }}>
             {/* Centered Heading */}
             <header className="section-heading" style={{ textAlign: 'center', margin: '0 auto 32px auto' }}>

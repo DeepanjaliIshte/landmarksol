@@ -108,7 +108,7 @@ export default function ClientPage({ slug }: { slug: string }) {
   return (
     <main style={{ overflowX: "hidden", background: "#f8fafc" }}>
 
-      <section className="hero hero-blue" style={{ background: "linear-gradient(135deg, rgba(239,246,255,1) 0%, rgba(219,234,254,0.5) 100%)", paddingBottom: '120px' }}>
+      <section className="hero hero-blue" style={{ background: "linear-gradient(135deg, rgba(239,246,255,1) 0%, rgba(219,234,254,0.5) 100%)" }}>
         <div className="hero-grid" style={{ gridTemplateColumns: '1fr', textAlign: 'center' }}>
           <motion.div 
             className="hero-copy"
