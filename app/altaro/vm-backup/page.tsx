@@ -391,22 +391,6 @@ export default function VmBackupPage() {
           </div>
         </section>
 
-        <section id="contact" className="vm-cta-section">
-          <div className="vm-cta-bg" aria-hidden="true" />
-          <motion.div className="vm-cta-card" initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.45 }}>
-            <span className="eyebrow">Get Protected</span>
-            <h2>Ready to Protect Your Virtual Infrastructure?</h2>
-            <p>
-              Schedule a free VM backup consultation with Landmark Techedge and map the right protection, replication,
-              and recovery strategy for your environment.
-            </p>
-            <div className="cta-buttons">
-              <a className="button button-tertiary" href="tel:+917030323838">Start Free Trial</a>
-              <a className="button button-primary" href="mailto:info@landmarktechedge.com">Request Demo</a>
-            </div>
-          </motion.div>
-        </section>
-
         {/* Contact Section */}
         <FadeInSection>
           <section id="contact" className="contact" style={{ padding: '48px 24px', backgroundColor: '#fafafa', borderTop: '1px solid #f1f5f9' }}>
