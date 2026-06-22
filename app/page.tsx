@@ -4,7 +4,7 @@ import altaroImage from "./img/altaro2.png";
 import bizplusLogo from "./img/Logo-bizpluscrm1.png";
 import bizplusErpLogo from "./img/bizplus_erp.png";
 import trioImage from "./img/Trio-corporation.jpg";
-import logo from "./img/LTPLLogo.png";
+import solutionsLogo from "./img/oursolution.png";
 import ContactSection from "./components/ContactSection";
 import { yearsExperience } from "./constants/experience";
 
@@ -29,7 +29,6 @@ const heroIndustries = [
 ];
 
 const products = [
-
   {
     name: "BizPlus CRM",
     label: "CRM & Sales Automation Software",
@@ -76,39 +75,33 @@ const whyChooseUs = [
   {
     title: "Industry Experience",
     icon: "icon-clock",
-    text:
-      `With more than ${yearsExperience} years of experience in the software industry, we understand the operational challenges businesses face and deliver practical technology solutions that improve efficiency and business growth.`
+    text: `With more than ${yearsExperience} years of experience in the software industry, we understand the operational challenges businesses face and deliver practical technology solutions that improve efficiency and business growth.`
   },
   {
     title: "Complete Business Automation",
     icon: "icon-stack",
-    text:
-      "Our solutions cover multiple business operations including CRM, production, inventory, sales, dispatch, customer management, healthcare operations, and data security all from integrated and scalable platforms.",
+    text: "Our solutions cover multiple business operations including CRM, production, inventory, sales, dispatch, customer management, healthcare operations, and data security all from integrated and scalable platforms."
   },
   {
     title: "Customized & Scalable Solutions",
     icon: "icon-ai",
-    text:
-      "We provide flexible software solutions designed to fit businesses of different sizes and industries, ensuring smooth implementation and long-term scalability.",
+    text: "We provide flexible software solutions designed to fit businesses of different sizes and industries, ensuring smooth implementation and long-term scalability."
   },
   {
     title: "Dedicated Support & Implementation",
     icon: "icon-support",
-    text:
-      "Our experienced support and implementation team ensures smooth onboarding, training, technical assistance, and continuous support for all clients.",
+    text: "Our experienced support and implementation team ensures smooth onboarding, training, technical assistance, and continuous support for all clients."
   },
   {
     title: "Trusted Technology Partner",
     icon: "icon-backup",
-    text:
-      "Businesses across manufacturing, healthcare, SMEs, and service industries trust Landmark Techedge for reliable software solutions and long-term technology partnership.",
+    text: "Businesses across manufacturing, healthcare, SMEs, and service industries trust Landmark Techedge for reliable software solutions and long-term technology partnership."
   },
   {
     title: "Transparent Delivery Process",
     icon: "icon-ivr",
-    text:
-      "We keep implementation, training, and support communication clear at every stage so teams know what is happening and when to expect results.",
-  },
+    text: "We keep implementation, training, and support communication clear at every stage so teams know what is happening and when to expect results."
+  }
 ];
 
 const strengths = [
@@ -124,91 +117,53 @@ const industries = [
   {
     title: "Manufacturing Industry",
     icon: "icon-stack",
-    text:
-      "Manage production planning, BOM, inventory, job cards, dispatch, and business operations efficiently with powerful manufacturing ERP solutions.",
+    text: "Manage production planning, BOM, inventory, job cards, dispatch, and business operations efficiently with powerful manufacturing ERP solutions."
   },
   {
     title: "Healthcare & Hospitals",
     icon: "icon-health",
-    text:
-      "Digitize healthcare operations with secure hospital management software for patient records, billing, administration, and healthcare workflows.",
+    text: "Digitize healthcare operations with secure hospital management software for patient records, billing, administration, and healthcare workflows."
   },
   {
     title: "SMEs & Enterprises",
     icon: "icon-crm",
-    text:
-      "Simplify customer management, sales tracking, inventory, and daily business operations with scalable ERP and CRM solutions.",
+    text: "Simplify customer management, sales tracking, inventory, and daily business operations with scalable ERP and CRM solutions."
   },
   {
     title: "Distributors & Trading Businesses",
     icon: "icon-channel",
-    text:
-      "Track sales, quotations, inventory, warehouse, and dispatch operations from one centralized business management platform.",
+    text: "Track sales, quotations, inventory, warehouse, and dispatch operations from one centralized business management platform."
   },
   {
     title: "Service-Based Businesses",
     icon: "icon-support",
-    text:
-      "Improve customer communication, follow-ups, support management, and operational efficiency with CRM and automation tools.",
+    text: "Improve customer communication, follow-ups, support management, and operational efficiency with CRM and automation tools."
   },
   {
     title: "IT & Technology Companies",
     icon: "icon-backup",
-    text:
-      "Secure business data, streamline workflows, and improve operational productivity with backup and software management solutions.",
+    text: "Secure business data, streamline workflows, and improve operational productivity with backup and software management solutions."
   },
 ];
 
 const testimonials = [
   {
-    quote:
-      "BizPlus ERP helped us streamline our complete manufacturing process including production planning, inventory tracking, BOM management, and dispatch operations. The software improved our operational efficiency significantly.",
+    quote: "BizPlus ERP helped us streamline our complete manufacturing process including production planning, inventory tracking, BOM management, and dispatch operations. The software improved our operational efficiency significantly.",
     name: "Rajesh Sharma",
-    role: "Operations Head – Manufacturing Company",
+    role: "Operations Head – Manufacturing Company"
   },
   {
-    quote:
-      "The CRM solution made it easier for our sales team to manage leads, customer follow-ups, and quotations from one platform. It improved our response time and customer management process.",
+    quote: "The CRM solution made it easier for our sales team to manage leads, customer follow-ups, and quotations from one platform. It improved our response time and customer management process.",
     name: "Amit Verma",
-    role: "Sales Manager – SME Business",
-  },
-  {
-    quote:
-      "TRIO HIMS simplified our hospital management operations and reduced paperwork completely. Patient records, billing, and administration are now managed digitally with better accuracy.",
-    name: "Dr. Neha Kulkarni",
-    role: "Healthcare Administrator",
-  },
-  {
-    quote:
-      "The implementation team provided excellent support throughout the deployment process. The software is user-friendly, reliable, and helped us improve business productivity.",
-    name: "Sandeep Patil",
-    role: "Director – Trading & Distribution Company",
-  },
-  {
-    quote:
-      "Altaro Backup Software helped us secure our virtual infrastructure with reliable backup and disaster recovery solutions. The setup and support experience was excellent.",
-    name: "Rohit Mehta",
-    role: "IT Manager – Technology Company",
-  },
+    role: "Sales Manager – SME Business"
+  }
 ];
 
 export default function Page() {
   const shouldReduceMotion = useReducedMotion();
   return (
     <main>
-      {/*<div className="topbar">
-        <div>
-          <a href="tel:+917030323838">+91 70303 23838</a>
-          <a href="tel:+919921388999">+91 99213 88999</a>
-        </div>
-        <div>
-          <a href="https://www.facebook.com/landmarktechs/">Facebook</a>
-          <a href="https://www.instagram.com/landmarktechedge/?hl=en">Instagram</a>
-          <a href="https://x.com/LTechedge">X</a>
-          <a href="https://in.linkedin.com/company/landmark-techedge-pvt-ltd">LinkedIn</a>
-        </div>
-      </div>*/}
-
+      {/* Hero Section */}
       <section id="home" className="hero hero-blue">
         <div className="hero-orbits" aria-hidden="true">
           <span />
@@ -250,24 +205,20 @@ export default function Page() {
               ))}
             </div>
           </div>
-
           <div className="hero-visual">
             <div className="visual-ring" aria-hidden="true" />
             <div className="visual-card">
-              <img src={logo.src} alt="LandMark TechEdge logo" />
+              <img src={solutionsLogo.src} alt="LandMark TechEdge logo" />
             </div>
             <div className="floating-stat stat-a">
               <strong>{yearsExperience}+</strong>
               years experience
             </div>
-
           </div>
         </div>
       </section>
 
-
-
-
+      {/* Products Section */}
       <section id="products" className="products py-12">
         <div className="section-heading">
           <span className="eyebrow">OUR PRODUCTS</span>
@@ -277,7 +228,6 @@ export default function Page() {
             to simplify business operations, improve productivity, and support business growth across multiple industries.
           </p>
         </div>
-
         <div className="product-stack product-slider">
           {products.map((product, index) => (
             <article className={`product-card product-card-${index + 1}`} key={product.name}>
@@ -305,6 +255,7 @@ export default function Page() {
         </div>
       </section>
 
+      {/* Why Choose Us Section */}
       <section className="why-choose-us">
         <div className="section-heading">
           <span className="eyebrow">WHY CHOOSE US</span>
@@ -314,7 +265,6 @@ export default function Page() {
             and business automation solutions tailored to modern industry requirements.
           </p>
         </div>
-
         <div className="why-grid">
           {whyChooseUs.map((item) => (
             <article className="why-card" key={item.title}>
@@ -324,7 +274,6 @@ export default function Page() {
             </article>
           ))}
         </div>
-
         <div className="strengths-panel">
           <h3>Our Strengths</h3>
           <div className="strengths-list" aria-label="Our strengths">
@@ -335,23 +284,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="homepage-cta">
-        <div className="homepage-cta-content">
-          <h2>Ready to Transform Your Business Operations?</h2>
-          <p>
-            Streamline your workflow with smart ERP, CRM, and business automation solutions from Landmark Techedge Pvt. Ltd.
-          </p>
-          <div className="cta-buttons">
-            <a href="#contact" className="button button-primary">
-              Book Free Demo
-            </a>
-            <a href="#contact" className="button button-secondary">
-              Contact Our Team
-            </a>
-          </div>
-        </div>
-      </section>
-
+      {/* Industries Section */}
       <section id="industries" className="services py-12">
         <div className="section-heading">
           <span className="eyebrow">INDUSTRIES WE SERVE</span>
@@ -370,7 +303,6 @@ export default function Page() {
             </div>
           ))}
         </div>
-
         <div className="strengths-panel">
           <h3>Industries Covered</h3>
           <div className="strengths-list" aria-label="Industries covered">
@@ -387,23 +319,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="homepage-cta">
-        <div className="homepage-cta-content">
-          <h2>Looking for Industry-Specific Software Solutions?</h2>
-          <p>
-            Our team helps businesses choose the right ERP, CRM, and automation solutions based on their industry requirements.
-          </p>
-          <div className="cta-buttons">
-            <a href={demoHref} className="button button-primary">
-              Talk To Our Experts
-            </a>
-            <a href="#contact" className="button button-secondary">
-              Request Free Demo
-            </a>
-          </div>
-        </div>
-      </section>
-
+      {/* Testimonials Section */}
       <section className="testimonials py-12">
         <div className="section-heading">
           <span className="eyebrow">CLIENT TESTIMONIALS</span>
@@ -413,10 +329,7 @@ export default function Page() {
           </p>
         </div>
         <div className="testimonials-carousel-wrapper" style={{ width: '100%', overflow: 'hidden', padding: '20px 0 40px' }}>
-          <div
-            style={{ display: 'inline-flex', gap: '24px', paddingLeft: '24px' }}
-            className="auto-scroll-track"
-          >
+          <div className="auto-scroll-track" style={{ display: 'inline-flex', gap: '24px', paddingLeft: '24px' }}>
             {[...testimonials, ...testimonials].map((item, i) => (
               <article className="testimonial-card hover-zoom-card" key={`${item.name}-${i}`} style={{ width: '85vw', maxWidth: '380px', flexShrink: 0, whiteSpace: 'normal', display: 'flex', flexDirection: 'column' }}>
                 <p style={{ flexGrow: 1 }}>"{item.quote}"</p>
@@ -426,33 +339,16 @@ export default function Page() {
             ))}
           </div>
           <style>{`
-            @keyframes marquee {
-              0% { transform: translateX(0%); }
-              100% { transform: translateX(calc(-50% - 12px)); }
-            }
-            .auto-scroll-track {
-              animation: marquee 40s linear infinite;
-            }
-            .auto-scroll-track:hover {
-              animation-play-state: paused;
-            }
-            .hover-zoom-card {
-              transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease, border-color 0.4s ease;
-              position: relative;
-            }
-            .hover-zoom-card:hover {
-              transform: scale(1.05);
-              box-shadow: 0 24px 48px rgba(15, 23, 42, 0.12);
-              border-color: #38bdf8;
-              z-index: 10;
-            }
+            @keyframes marquee { 0% { transform: translateX(0%); } 100% { transform: translateX(calc(-50% - 12px)); } }
+            .auto-scroll-track { animation: marquee 40s linear infinite; }
+            .auto-scroll-track:hover { animation-play-state: paused; }
+            .hover-zoom-card { transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease, border-color 0.4s ease; position: relative; }
+            .hover-zoom-card:hover { transform: scale(1.05); box-shadow: 0 24px 48px rgba(15, 23, 42, 0.12); border-color: #38bdf8; z-index: 10; }
           `}</style>
         </div>
       </section>
 
       <ContactSection />
-
-
       <a className="whatsapp-float" href={whatsappHref} aria-label="Chat with us on WhatsApp">
         <span className="tooltip">Chat with us! 👋</span>
       </a>

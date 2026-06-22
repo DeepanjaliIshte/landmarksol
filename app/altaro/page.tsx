@@ -1,6 +1,6 @@
 "use client";
 
-import altaroLogo from "../img/altaro2.png";
+import altaroLogo from "../img/ramsomware.png";
 import ContactSection from "../components/ContactSection";
 import FadeInSection from "../components/FadeInSection";
 import { motion, useReducedMotion } from "framer-motion";
@@ -84,7 +84,7 @@ export default function AltaroPage() {
       {/* Premium Hero Section */}
       <section className="hero hero-blue" style={{ background: "linear-gradient(135deg, rgba(239,246,255,1) 0%, rgba(219,234,254,0.5) 100%)" }}>
         <div className="hero-grid">
-          <motion.div 
+          <motion.div
             className="hero-copy"
             initial={shouldReduceMotion ? false : { opacity: 0, x: -30 }}
             animate={shouldReduceMotion ? undefined : { opacity: 1, x: 0 }}
@@ -102,13 +102,13 @@ export default function AltaroPage() {
             <small style={{ display: 'block', marginTop: '16px', color: '#64748b', fontWeight: 600 }}>30-day trial + free for micro businesses</small>
           </motion.div>
 
-          <motion.div 
+          <motion.div
             className="hero-visual"
             initial={shouldReduceMotion ? false : { opacity: 0, scale: 0.95 }}
             animate={shouldReduceMotion ? undefined : { opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
           >
-            <motion.div 
+            <motion.div
               className="visual-card"
               animate={shouldReduceMotion ? undefined : { y: [0, -15, 0] }}
               transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
@@ -135,13 +135,13 @@ export default function AltaroPage() {
                 Industry-leading backup solutions for virtual, physical, and cloud environments.
               </p>
             </div>
-            
+
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '24px' }}>
               {backupSolutions.map((solution, i) => (
-                <a 
-                  key={solution.title} 
+                <a
+                  key={solution.title}
                   href={solution.href}
-                  className="impact-card" 
+                  className="impact-card"
                   style={{ display: 'flex', flexDirection: 'column', textDecoration: 'none', transition: 'all 0.3s ease', borderRadius: '20px' }}
                 >
                   <div style={{ width: '56px', height: '56px', borderRadius: '16px', background: 'linear-gradient(135deg, rgba(59,130,246,0.1) 0%, rgba(139,92,246,0.1) 100%)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#2563eb', marginBottom: '24px' }}>
@@ -171,13 +171,13 @@ export default function AltaroPage() {
                 Secure your files and workstations with simple, effective backup solutions.
               </p>
             </div>
-            
+
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '24px', maxWidth: '800px', margin: '0 auto' }}>
               {otherProducts.map((product, i) => (
-                <a 
-                  key={product.title} 
+                <a
+                  key={product.title}
                   href={product.href}
-                  className="impact-card" 
+                  className="impact-card"
                   style={{ display: 'flex', flexDirection: 'column', textDecoration: 'none', background: 'rgba(255,255,255,0.9)', backdropFilter: 'blur(12px)', borderRadius: '20px' }}
                 >
                   <div style={{ width: '48px', height: '48px', borderRadius: '12px', background: 'rgba(16,185,129,0.1)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#10b981', marginBottom: '20px' }}>
@@ -202,7 +202,7 @@ export default function AltaroPage() {
         </section>
       </FadeInSection>
 
-      
+
 
       <a className="whatsapp-float" href={whatsappHref} aria-label="Chat with us on WhatsApp">
         <span className="tooltip">Chat with us! 👋</span>

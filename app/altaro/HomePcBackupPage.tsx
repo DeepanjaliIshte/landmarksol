@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import altaroLogo from "../img/altaro2.png";
+import altaroLogo from "../img/homepc.png";
 import ContactSection from "../components/ContactSection";
 import FadeInSection from "../components/FadeInSection";
 import { motion, useReducedMotion } from "framer-motion";

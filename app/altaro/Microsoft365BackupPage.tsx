@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import altaroLogo from "../img/altaro2.png";
+import altaroLogo from "../img/microsoft.png";
 import ContactSection from "../components/ContactSection";
 import FadeInSection from "../components/FadeInSection";
 import { motion, useReducedMotion } from "framer-motion";
@@ -90,7 +90,7 @@ export default function Microsoft365BackupPage() {
       {/* Hero Section */}
       <section className="hero hero-blue" style={{ background: "linear-gradient(135deg, rgba(239,246,255,1) 0%, rgba(219,234,254,0.5) 100%)" }}>
         <div className="hero-grid">
-          <motion.div 
+          <motion.div
             className="hero-copy"
             initial={shouldReduceMotion ? false : { opacity: 0, x: -30 }}
             animate={shouldReduceMotion ? undefined : { opacity: 1, x: 0 }}
@@ -107,13 +107,13 @@ export default function Microsoft365BackupPage() {
             </div>
           </motion.div>
 
-          <motion.div 
+          <motion.div
             className="hero-visual"
             initial={shouldReduceMotion ? false : { opacity: 0, scale: 0.95 }}
             animate={shouldReduceMotion ? undefined : { opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
           >
-            <motion.div 
+            <motion.div
               className="visual-card"
               animate={shouldReduceMotion ? undefined : { y: [0, -15, 0] }}
               transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
@@ -212,7 +212,7 @@ export default function Microsoft365BackupPage() {
               <span className="eyebrow" style={{ justifyContent: 'center' }}>Onboarding</span>
               <h2>Easy Setup, Nothing to Deploy</h2>
             </div>
-            
+
             <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '24px' }}>
               {setupSteps.map((step, i) => (
                 <div key={i} style={{ flex: '1 1 200px', maxWidth: '280px', background: '#fff', borderRadius: '20px', padding: '32px 24px', boxShadow: '0 12px 32px rgba(15,23,42,0.06)', position: 'relative' }}>
@@ -235,7 +235,7 @@ export default function Microsoft365BackupPage() {
         </section>
       </FadeInSection>
 
-      
+
 
       <a className="whatsapp-float" href={whatsappHref} aria-label="Chat with us on WhatsApp">
         <span className="tooltip">Chat with us! 👋</span>

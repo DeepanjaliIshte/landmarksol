@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import altaroLogo from "../img/altaro2.png";
+import altaroLogo from "../img/windows.png";
 import ContactSection from "../components/ContactSection";
 import FadeInSection from "../components/FadeInSection";
 import { motion, useReducedMotion } from "framer-motion";
@@ -121,7 +121,7 @@ export default function WindowsServerBackupPage() {
       {/* Hero Section */}
       <section className="hero hero-blue" style={{ background: "linear-gradient(135deg, rgba(239,246,255,1) 0%, rgba(219,234,254,0.5) 100%)" }}>
         <div className="hero-grid">
-          <motion.div 
+          <motion.div
             className="hero-copy"
             initial={shouldReduceMotion ? false : { opacity: 0, x: -30 }}
             animate={shouldReduceMotion ? undefined : { opacity: 1, x: 0 }}
@@ -139,13 +139,13 @@ export default function WindowsServerBackupPage() {
             </div>
           </motion.div>
 
-          <motion.div 
+          <motion.div
             className="hero-visual"
             initial={shouldReduceMotion ? false : { opacity: 0, scale: 0.95 }}
             animate={shouldReduceMotion ? undefined : { opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
           >
-            <motion.div 
+            <motion.div
               className="visual-card"
               animate={shouldReduceMotion ? undefined : { y: [0, -15, 0] }}
               transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
@@ -204,7 +204,7 @@ export default function WindowsServerBackupPage() {
               <span className="eyebrow" style={{ justifyContent: 'center' }}>Features</span>
               <h2>Physical Server Backup: Features</h2>
             </div>
-            
+
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(500px, 1fr))', gap: '32px' }}>
               <div className="impact-card" style={{ borderRadius: '24px', padding: '40px' }}>
                 <h3 style={{ fontSize: '24px', color: '#0f172a', marginBottom: '24px', borderBottom: '2px solid rgba(59,130,246,0.1)', paddingBottom: '16px' }}>Backup & Recovery</h3>
@@ -252,7 +252,7 @@ export default function WindowsServerBackupPage() {
           <div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center' }}>
             <h2 style={{ fontSize: '32px', color: '#0f172a', marginBottom: '16px' }}>What operating systems does this freeware back up?</h2>
             <p style={{ fontSize: '18px', color: '#64748b', marginBottom: '32px' }}>Supported Windows Server OS Versions:</p>
-            
+
             <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '16px', marginBottom: '32px' }}>
               {supportedOs.map((os) => (
                 <span key={os} style={{ padding: '12px 24px', background: '#fff', borderRadius: '99px', fontSize: '15px', fontWeight: 600, color: '#334155', border: '1px solid #e2e8f0', boxShadow: '0 4px 6px -1px rgba(0,0,0,0.05)' }}>
@@ -260,7 +260,7 @@ export default function WindowsServerBackupPage() {
                 </span>
               ))}
             </div>
-            
+
             <p style={{ fontSize: '14px', color: '#64748b', fontStyle: 'italic' }}>
               Free VMware ESXi hosts are not supported. For virtual environments, use{" "}
               <a href="/altaro/vm-backup" style={{ color: '#2563eb', textDecoration: 'none', fontWeight: 600 }}>VM Backup & Replication</a>.
@@ -275,7 +275,7 @@ export default function WindowsServerBackupPage() {
         </section>
       </FadeInSection>
 
-      
+
 
       <a className="whatsapp-float" href={whatsappHref} aria-label="Chat with us on WhatsApp">
         <span className="tooltip">Chat with us! 👋</span>

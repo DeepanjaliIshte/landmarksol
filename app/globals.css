@@ -39,7 +39,8 @@
   --nav-size: 18px;
   --nav-weight: 500;
   --list-size: 18px;
-  --list-line-height: 1.8;
+    --list-line-height: 1.8;
+  --feature-title-weight: 600;
 }
 
 * {
