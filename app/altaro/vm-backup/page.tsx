@@ -138,6 +138,7 @@ const testimonials = [
   },
 ];
 
+
 const awards = [
   "/assets/img/Altaro/g2-leader-summer-2022-bw.svg",
   "/assets/img/Altaro/getapp-category-leaders-2022-bw.png",
