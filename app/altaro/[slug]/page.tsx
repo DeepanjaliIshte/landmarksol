@@ -2,7 +2,6 @@ import ClientPage from "./ClientPage";
 
 export function generateStaticParams() {
   return [
-    { slug: "vm-backup" },
     { slug: "microsoft-365-backup" },
     { slug: "windows-server-backup" },
     { slug: "file-server-backup" },

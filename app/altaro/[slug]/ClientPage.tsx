@@ -5,7 +5,6 @@ import Microsoft365BackupPage from "../Microsoft365BackupPage";
 import WindowsServerBackupPage from "../WindowsServerBackupPage";
 import FileServerBackupPage from "../FileServerBackupPage";
 import HomePcBackupPage from "../HomePcBackupPage";
-import VmBackupPage from "../VmBackupPage";
 import FadeInSection from "../../components/FadeInSection";
 import ContactSection from "../../components/ContactSection";
 import { motion, useReducedMotion } from "framer-motion";
@@ -13,11 +12,6 @@ import { motion, useReducedMotion } from "framer-motion";
 const whatsappHref = "https://api.whatsapp.com/send?phone=919370943551&text=Hi";
 
 const pages: Record<string, { title: string; category: string; description: string }> = {
-  "vm-backup": {
-    title: "VM Backup & Replication",
-    category: "Backup Solutions",
-    description: "A dedicated Altaro VM Backup & Replication page is ready for the structure and content you will share.",
-  },
   "microsoft-365-backup": {
     title: "Microsoft 365 Backup",
     category: "Backup Solutions",
@@ -79,10 +73,6 @@ const vmwareSupport = [
 ];
 
 export default function ClientPage({ slug }: { slug: string }) {
-  if (slug === "vm-backup") {
-    return <VmBackupPage />;
-  }
-
   if (slug === "microsoft-365-backup") {
     return <Microsoft365BackupPage />;
   }
