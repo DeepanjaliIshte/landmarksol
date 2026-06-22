@@ -63,10 +63,7 @@ const EyeIcon = () => (
   </svg>
 );
 
-const clients = [
-  "Client Logo 1", "Client Logo 2", "Client Logo 3", 
-  "Client Logo 4", "Client Logo 5", "Client Logo 6"
-];
+
 
 const tags = [
   "Dashboard", "CEO Dashboards", "Enquiry", "Quotation", "Tasks", "Contacts", "Products", 
@@ -142,20 +139,7 @@ export default function BizPlusErpPage() {
         </div>
       </section>
 
-      {/* Client Logo Ticker */}
-      <div style={{ background: '#fff', borderTop: '1px solid #e2e8f0', borderBottom: '1px solid #e2e8f0', padding: '32px 0', overflow: 'hidden', whiteSpace: 'nowrap', display: 'flex' }}>
-        <motion.div 
-          animate={shouldReduceMotion ? undefined : { x: ["0%", "-50%"] }} 
-          transition={{ ease: "linear", duration: 30, repeat: Infinity }}
-          style={{ display: 'flex', gap: '80px', paddingLeft: '80px' }}
-        >
-          {[...clients, ...clients, ...clients].map((client, i) => (
-            <div key={i} style={{ fontSize: '18px', fontWeight: 800, color: '#cbd5e1', textTransform: 'uppercase', letterSpacing: '2px', display: 'flex', alignItems: 'center' }}>
-              {client}
-            </div>
-          ))}
-        </motion.div>
-      </div>
+
 
       {/* Mission & Vision Section */}
       <FadeInSection>

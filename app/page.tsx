@@ -210,10 +210,7 @@ export default function Page() {
             <div className="visual-card">
               <img src={solutionsLogo.src} alt="LandMark TechEdge logo" />
             </div>
-            <div className="floating-stat stat-a">
-              <strong>{yearsExperience}+</strong>
-              years experience
-            </div>
+
           </div>
         </div>
       </section>
