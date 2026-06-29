@@ -815,14 +815,7 @@ img {
 }
 
 .visual-ring {
-  position: absolute;
-  inset: 16px;
-  border-radius: 32px;
-  background:
-    conic-gradient(from 120deg, rgba(37, 99, 235, 0), rgba(37, 99, 235, 0.48), rgba(16, 185, 129, 0.48), rgba(245, 158, 11, 0.44), rgba(37, 99, 235, 0));
-  filter: blur(8px);
-  opacity: 0.72;
-  animation: rotateGlow 10s linear infinite;
+  display: none;
 }
 
 .visual-card {
@@ -831,31 +824,15 @@ img {
   display: grid;
   place-items: center;
   padding: 14px;
-  border: 1px solid rgba(255, 255, 255, 0.9);
-  border-radius: 24px;
-  background: linear-gradient(145deg, rgba(255,255,255,0.86), rgba(255,255,255,0.6));
-  box-shadow: var(--shadow);
   overflow: hidden;
-  backdrop-filter: blur(12px);
 }
 
 .visual-card::before {
-  content: "";
-  position: absolute;
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, rgba(37, 99, 235, 0.14), rgba(245, 158, 11, 0.12));
-  animation: pulse 5s ease-in-out infinite;
+  content: none;
 }
 
 .visual-card::after {
-  content: "";
-  position: absolute;
-  inset: auto 24px 24px 24px;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(37, 99, 235, 0.42), transparent);
-  animation: scan 2.8s ease-in-out infinite;
+  content: none;
 }
 
 .visual-card img {
@@ -863,7 +840,9 @@ img {
   z-index: 1;
   max-height: 320px;
   object-fit: contain;
-  filter: drop-shadow(0 22px 30px rgba(15, 23, 42, 0.16));
+  width: auto;
+  height: auto;
+  background: transparent;
 }
 
 .floating-stat {
@@ -4860,24 +4839,15 @@ img {
 
 .vm-hero-visual {
   position: relative;
-  min-height: 470px;
-  border-radius: 30px;
-  border: 1px solid rgba(255, 255, 255, 0.76);
-  background:
-    linear-gradient(145deg, rgba(255, 255, 255, 0.68), rgba(255, 255, 255, 0.28)),
-    radial-gradient(circle at 50% 42%, rgba(37, 99, 235, 0.12), transparent 38%);
-  box-shadow: 0 28px 70px rgba(30, 64, 175, 0.16);
+  width: min(100%, 540px);
+  min-height: 0;
+  aspect-ratio: 1 / 1;
+  animation: floatIn 0.8s cubic-bezier(0.2, 0.9, 0.2, 1) both;
   overflow: hidden;
-  backdrop-filter: blur(18px);
 }
 
 .vm-visual-glow {
-  position: absolute;
-  inset: 46px;
-  border-radius: 50%;
-  background: conic-gradient(from 180deg, rgba(37, 99, 235, 0.12), rgba(124, 58, 237, 0.32), rgba(6, 182, 212, 0.28), rgba(37, 99, 235, 0.12));
-  filter: blur(12px);
-  animation: rotateGlow 13s linear infinite;
+  display: none;
 }
 
 .vm-cloud-node,
@@ -5544,5 +5514,162 @@ img {
   .vm-reliability-panel {
     border-radius: 22px;
     padding: 22px;
+  }
+}
+
+/* CONTACT PAGE COMPLETE LAYOUT FIXES */
+
+/* 1. FAQ Section 2-Column Layout */
+.contact-page .faq-container {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 48px;
+  align-items: flex-start;
+  padding: 0 max(24px, calc((100vw - var(--content)) / 2)) !important;
+}
+
+.contact-page .faq-left {
+  width: 40%;
+  max-width: 500px;
+}
+
+.contact-page .faq-right {
+  width: 60%;
+}
+
+.contact-page .faq-left h2 {
+  white-space: normal !important;
+  word-wrap: break-word;
+  word-break: normal !important;
+}
+
+/* 2. Remove Excess White Space */
+.contact-page section {
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.contact-page .contact-container,
+.contact-page .faq-container {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.contact-page .hero {
+  padding-top: 160px !important; /* Keep hero padding larger for header */
+}
+
+/* 3. Contact Section Vertical Alignment & Equal Height */
+.contact-page .contact-main-section .contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 48px;
+  align-items: stretch !important;
+}
+
+.contact-page .contact-info-grid {
+  display: flex !important;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+}
+
+.contact-page .info-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-page .contact-form-section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.contact-page .contact-form-section .contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* 4. Navbar Fixes */
+.site-nav a {
+  font-size: 15px !important;
+  font-weight: 500 !important;
+}
+
+.brand img {
+  max-height: 40px !important;
+  width: auto;
+}
+
+/* 5. CTA Section Margin */
+.contact-page .homepage-cta {
+  margin-top: 0 !important; 
+}
+
+/* 6. Responsive Layout */
+@media (max-width: 992px) {
+  .contact-page section:not(.hero) {
+    padding-top: 48px !important;
+    padding-bottom: 48px !important;
+  }
+  
+  .contact-page .faq-container {
+    flex-direction: column !important;
+  }
+  
+  .contact-page .faq-left, 
+  .contact-page .faq-right {
+    width: 100% !important;
+    max-width: none !important;
+  }
+  
+  .contact-page .contact-main-section .contact-container {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-page section:not(.hero) {
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+  }
+}
+
+/* 7. Typography */
+.contact-page, 
+.contact-page p, 
+.contact-page .faq-content p,
+.contact-page .contact-form-section p,
+.contact-page .why-card p {
+  font-size: 16px !important;
+  line-height: 1.7 !important;
+}
+
+.contact-page h1,
+.contact-page h2,
+.contact-page .section-heading h2 {
+  font-size: 48px !important;
+  line-height: 1.2 !important;
+}
+
+@media (max-width: 992px) {
+  .contact-page h1,
+  .contact-page h2,
+  .contact-page .section-heading h2 {
+    font-size: 36px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-page h1,
+  .contact-page h2,
+  .contact-page .section-heading h2 {
+    font-size: 28px !important;
   }
 }

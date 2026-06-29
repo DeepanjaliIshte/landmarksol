@@ -139,12 +139,16 @@ export default function ContactPage() {
       {/* FAQ Section */}
       <section className="faq-section">
         <div className="faq-container">
-          <div className="section-heading text-center">
-            <span className="eyebrow">Common Questions</span>
-            <h2>Frequently Asked Questions</h2>
-            <p>Find quick answers to common questions about our services, deployment timelines, and support.</p>
+          <div className="faq-left">
+            <div className="section-heading">
+              <span className="eyebrow">Common Questions</span>
+              <h2>Frequently Asked Questions</h2>
+              <p>Find quick answers to common questions about our services, deployment timelines, and support.</p>
+            </div>
           </div>
-          <FAQAccordion />
+          <div className="faq-right">
+            <FAQAccordion />
+          </div>
         </div>
       </section>
 
